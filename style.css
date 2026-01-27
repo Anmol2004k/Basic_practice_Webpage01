@@ -10,3 +10,26 @@ html,body{
     width: 100%;
     
 }
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color:  hsl( 346deg,  17%,  70%);
+    display: flex;
+}
+
+#part1{
+    height: 100%;
+    width: 26%;
+    background-color: red;
+}
+#part2{
+    height: 100%;
+    width: 26%;
+    background-color: yellowgreen;
+}
+#part3{
+    height: 100%;
+    width: 26%;
+    background-color: skyblue;
+}
