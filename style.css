@@ -16,17 +16,18 @@ html,body{
     width: 100%;
     /* background-color:  hsl( 346deg,  17%,  70%); */
     background-color: #97491fc8;
-    display: flex;
+            display: flex;
+            flex-direction: row;
 }
 
 #part1{
     height: 100%;
-    width: 26%;
+    width: 30%;
     /* background-color: red; */
 }
 #part2{
     height: 100%;
-    width: 68%;
+    width: 50%;
     /* background-color: yellowgreen; */
     background-image: url(https://plus.unsplash.com/premium_photo-1675034366383-1e48cce12b8f?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
       background-size: cover;
@@ -41,6 +42,23 @@ html,body{
 }
 #part3{
     height: 100%;
-    width: 8%;
+    width: 20%;
     /* background-color: skyblue; */
+}
+#text-dev{
+    height: 300px;
+    position: absolute;
+    width: 400px;
+    background-color: wheat;
+    left: 5%;
+    top: 50%;
+ 
+}
+#text-dev > h1{
+    font-size: 120px;
+    color: brown;
+    font-family: gilroe;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
 }
